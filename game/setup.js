@@ -5,7 +5,9 @@ window.addEventListener('load', function() {
             .include('GameScenes, GameSprites')
             .setup({
                 width: 144,
-                height: 256
+                height: 256,
+                cssWidth: 144,
+                cssHeight: 256
             })
             .touch()
             .enableSound();
